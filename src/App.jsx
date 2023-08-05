@@ -22,7 +22,7 @@ function App() {
   }
 
   return (
-    <div className="dark:bg-slate-800">
+    <div className="dark:bg-slate-800 container mx-auto xl:px-48">
       <Nav Theme={Theme} ThemeSwitcher={ThemeSwitcher} />
       <MainContent />
     </div>

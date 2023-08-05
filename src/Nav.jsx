@@ -3,7 +3,7 @@ import {MdLightMode, MdDarkMode } from "react-icons/md";
 
 export const Nav = ({Theme,ThemeSwitcher}) => {
   return (
-    <div className='flex justify-around items-center h-20'>
+    <div className='flex justify-between items-center h-20 '>
     <div className="logo">
         <p className='font-bold font-poppins text-lg capitalize'>golap-m</p>
     </div>

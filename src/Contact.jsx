@@ -12,7 +12,7 @@ const Contact = () => {
     <div className='flex justify-center items-center'>
         <form>
             <input type="text" placeholder='enter your email' name="email" value={inputName} onChange={(e)=>setName(e.target.value)}/><br />
-            <textarea placeholder="write message" name="" id="" cols="30" rows="10" value={inputMsg} onChange={(e)=>setMsg(e.target.value)}></textarea><br />
+            <textarea placeholder="write message" name="" id="" value={inputMsg} onChange={(e)=>setMsg(e.target.value)}></textarea><br />
             <button onClick={submitHandelar}>submit</button>
         </form>
     </div>

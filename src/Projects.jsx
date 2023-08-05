@@ -15,15 +15,15 @@ const Projects = () => {
   }
   
   return (
-    <div className='py-20 flex justify-center items-center'>  
-        <div className='grid place-content-center w-[60%]'>
+    <div className='py-20'>  
+        <div className='grid place-content-center'>
         <p className='text-center'>Projects</p>
         <div className="btngroup text-center">
-            <button className='mx-2 capitalize' onClick={allData}>all</button>
-            <button className='mx-2 capitalize' onClick={()=>filteredData('django')}>django</button>
-            <button className='mx-2 capitalize' onClick={()=>filteredData('reactjs')}>reactjs</button>
-            <button className='mx-2 capitalize' onClick={()=>filteredData('nextjs')}>nextjs</button>
-            <button className='mx-2 capitalize' onClick={()=>filteredData('flask')}>flask</button>
+            <button className='btn-sm' onClick={allData}>all</button>
+            <button className='btn-sm' onClick={()=>filteredData('django')}>django</button>
+            <button className='btn-sm' onClick={()=>filteredData('reactjs')}>reactjs</button>
+            <button className='btn-sm' onClick={()=>filteredData('nextjs')}>nextjs</button>
+            <button className='btn-sm' onClick={()=>filteredData('flask')}>flask</button>
         </div>
         <div className="flex flex-wrap gap-5 justify-center items-center">
             {Alldata.map((d)=>(
