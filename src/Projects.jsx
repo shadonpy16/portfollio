@@ -13,7 +13,7 @@ const Projects = () => {
     const res=data.map((d)=>d);
     setData(res);
   }
-  console.log(Alldata)
+  
   return (
     <div className='py-20 flex justify-center items-center'>  
         <div className='grid place-content-center w-[60%]'>

@@ -2,6 +2,7 @@ import React from 'react'
 import { AiFillGithub,AiFillLinkedin,AiFillSkype } from "react-icons/ai";
 import profileImg from './assets/profile.png';
 import Projects from './Projects';
+import Contact from './Contact';
 
 
 const MainContent = () => {
@@ -24,6 +25,7 @@ const MainContent = () => {
         </div>
     </div>
     <Projects />
+    <Contact />
     </div>
   )
 }
