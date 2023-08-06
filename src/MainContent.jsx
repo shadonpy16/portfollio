@@ -7,11 +7,11 @@ import Contact from './Contact';
 
 const MainContent = () => {
   return (
-    <div className=''>
+    <div className="">
     <div className='flex flex-wrap-reverse justify-between'>
         <div className="font-roboto py-5">
             <p className='text-2xl font-bold capitalize'>hi there,</p>
-            <p className='text-2xl font-bold capitalize py-2'>i'm golap mahabub</p>
+            <p className='inline text-2xl font-bold capitalize py-2'>i'm golap mahabub</p><div class="mx-2 mb-1 inline-block animate-ping h-2 w-2 rounded-full bg-green-700"></div>
             <p className='text-lg capitalize'>full stack web developer</p>
             <p className='w-96 mt-4'>Versatile Full Stack Web Developer with expertise in front-end and back-end technologies, crafting seamless digital experiences.</p>
             <p className='py-6'>skills: 
