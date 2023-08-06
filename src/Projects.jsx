@@ -17,8 +17,8 @@ const Projects = () => {
   return (
     <div className='py-20'>  
         <div className='grid place-content-center'>
-        <p className='text-center'>Projects</p>
-        <div className="btngroup text-center">
+        <p className='text-center py-4'>Projects</p>
+        <div className="btngroup text-center py-4">
             <button className='btn-sm' onClick={allData}>all</button>
             <button className='btn-sm' onClick={()=>filteredData('django')}>django</button>
             <button className='btn-sm' onClick={()=>filteredData('reactjs')}>reactjs</button>
